@@ -22,7 +22,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
-    ])
+    ], {useHash: true})
   ],
   declarations: [
     AppComponent,
